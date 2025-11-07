@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const taskInput = document.getElementById("taskInput");
     const addTaskBtn = document.getElementById("addTaskBtn");
     const taskList = document.getElementById("taskList");
+    const API_URL = 'https://todolist-engsoft.onrender.com';
 
     addTaskBtn.addEventListener("click", addTask);
     taskList.addEventListener("click", handleTaskClick);
